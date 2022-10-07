@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FLOWER</title>
+        <style>
+            .p {
+                width: 400px;
+                height: 400px;
+                background: black;
+                border: 5px dotted white;
+                position: relative;
+                margin: auto;
+                transition-property: transform;
+                transition-duration: 5s;
+                transition-timing-function: linear;
+            }
+            .p:hover {
+                transform: rotate(360deg);
+                background-color: rgb(176, 17, 83);
+            }
+            .c {
+                width: 200px;
+                height: 200px;
+                background: white;
+                transition: background linear;
+            }
+            div.c:hover {
+                background: rgb(70, 173, 26);
+            }
+
+            .c1 {
+                border: bottom 1px;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                border-bottom-left-radius: 200px;
+                border-top-right-radius: 200px;
+            }
+            .c2 {
+                border: bottom 1px;
+                position: absolute;
+                bottom: 0px;
+                left: 0px;
+                border-bottom-right-radius: 200px;
+                border-top-left-radius: 200px;
+            }
+            .c3 {
+                border: bottom 1px;
+                position: absolute;
+                top: 0px;
+                right: 0px;
+                border-bottom-right-radius: 200px;
+                border-top-left-radius: 200px;
+            }
+            .c4 {
+                border: bottom 1px;
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                border-bottom-left-radius: 200px;
+                border-top-right-radius: 200px;
+            }
+            .a {
+                width: 100px;
+                height: 100px;
+                background: black;
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                border-bottom-left-radius: 100px;
+                border-top-right-radius: 100px;
+            }
+            .b {
+                width: 100px;
+                height: 100px;
+                background: black;
+                position: absolute;
+                top: 0px;
+                right: 0px;
+                border-bottom-right-radius: 100px;
+                border-top-left-radius: 100px;
+            }
+            .i {
+                width: 100px;
+                height: 100px;
+                background: black;
+                position: absolute;
+                bottom: 0px;
+                left: 0px;
+                border-bottom-right-radius: 100px;
+                border-top-left-radius: 100px;
+            }
+            .d {
+                width: 100px;
+                height: 100px;
+                background: black;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                border-bottom-left-radius: 100px;
+                border-top-right-radius: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="p">
+            <div class="c c1">
+                <div class="a"></div>
+            </div>
+            <div class="c c2">
+                <div class="b"></div>
+            </div>
+            <div class="c c3">
+                <div class="i"></div>
+            </div>
+            <div class="c c4">
+                <div class="d"></div>
+            </div>
+        </div>
+    </body>
+</html>
